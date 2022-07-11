@@ -26,9 +26,9 @@ def gfg():
       if not ll[41:]:
         return render_template("wrongurl.html")
       elif(ll[12:17]=='cloud'):
-        return redirect("https://googlecloud.open-web-tech.repl.co"+"/?"+ll[52:])
+        return redirect("https://googlecloud.open-web-tech.repl.co"+"/?"+ll[52:]) #Your website link
       elif(ll[12:17]=='qwickl'):
-        return redirect("https://googlecloud.open-web-tech.repl.co"+"/?"+ll[41:])
+        return redirect("https://googlecloud.open-web-tech.repl.co"+"/?"+ll[41:]) #Your website link
       else:
         return render_template("wrongurl.html")
     return render_template("form.html")
